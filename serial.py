@@ -18,11 +18,12 @@ class SerialGenerator:
     100
     """
 
-    def __init__(self, start = 0):
+    def __init__(self, start=0):
         """Initialize the starting number and current number."""
 
         self.start = start
-        self.next  = start
+        self.next = start
+    #TODO: write a repr function
 
     def generate(self):
         """Return the next sequential number."""
